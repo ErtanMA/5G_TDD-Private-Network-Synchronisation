@@ -1,0 +1,25 @@
+# MATLAB
+*.asv
+*.mex*
+*.slxc
+slprj/
+octave-workspace
+
+# Data and generated outputs (regenerable, not source)
+reports/
+outputs/
+results/
+*.mat
+*.fig
+
+# Raw IQ captures (large binaries)
+*.dat
+*.bin
+*.iq
+*.sigmf-data
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

@@ -1,0 +1,11 @@
+{
+  "sample_rate_hz": 30720000,
+  "center_frequency_hz": 3770000000,
+  "bandwidth_hz": 15000000,
+  "rx_lat": 52.000000,
+  "rx_lon": 5.000000,
+  "rx_alt_m": 0,
+  "clock_source": "internal",
+  "gnss_locked": false
+}
+

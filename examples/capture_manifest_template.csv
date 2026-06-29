@@ -1,0 +1,3 @@
+CaptureID,IQPath,MetadataPath,RxLat,RxLon,RxAltM,RxPositionUncertaintyM
+cap_001,real_captures/cap_001_iq.mat,real_captures/cap_001_meta.json,52.000000,5.000000,0,5
+cap_002,real_captures/cap_002_iq.mat,real_captures/cap_002_meta.json,52.000500,5.000200,0,5
