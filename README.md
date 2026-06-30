@@ -61,13 +61,3 @@ Run the test suite from the repository root:
 addpath('src'); addpath('tests');
 results = runtests('tests');
 ```
-
-## Scope and limitations
-
-- Relative timing only; a common-mode shift shared by all visible cells is
-  unobservable with an internal-clock receiver.
-- The static-offset verdict requires a sufficiently informative receiver
-  geometry (several non-collinear positions with common cells); degenerate
-  geometries are reported as `SUSPECT` rather than forced to a verdict.
-- The default `1 us` threshold is a configurable engineering value, not a
-  regulatory or absolute-UTC limit.
